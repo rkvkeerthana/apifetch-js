@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+    <title>RKV BOOK STORE website </title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+</head>
+<body>
+
+
+<!--navbar-->
+    <header class="header">
+    <nav class="nav">
+        <a href="#" class="nav_logo"> Rkvbook</a>
+<ul class="'nav_items">
+    <li class="nav_item">
+    <a href="#" class="nav_link">home</a>
+    <a href="#" class="nav_link">about us</a>
+    <a href="#footer" class="nav_link">contact us</a>
+    </li>
+</ul>
+<button class="button" id="form-open">login</button>
+ </nav>
+ </header>
+ <section class="home">
+    <div class="form_container">
+        <i class="uil uil-times form_close" aria-hidden="true"></i>
+
+        <div class="form login_form">
+        <form action="api.html">
+            <h2>login</h2>
+            <div class="input_box">
+                <input type="email" placeholder="Enter your email" required/>
+                <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+                <input type="password" placeholder="Enter your password" required/>
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="option_field">
+                <span class="checkbox">
+                    <input type="checkbox" id="check"/>
+                    <label for="check">Remember me</label>
+                    </span>
+                    <a href="#" class=" forgot_pw">forgot password?</a>
+               
+            </div>
+            <button class="button">login now</button>
+
+        <div class ="login_signup">Don't have an account?<a href="#" id="signup">signup</a></div>
+        </form>
+        </div>
+        <!-- Alert message container -->
+    <div id="successAlert" class="alert-message success-alert hidden">
+        Login successful! Redirecting...
+    </div>
+        <!--signup form-->
+        <div class="form signup_form">
+            <form  action="#">
+                <h2>signup</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Enter your email" required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder=" create password" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+
+                <div class="input_box">
+                    <input type="password" placeholder=" confirm password" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+
+            
+                <button class="button">signup now</button>
+            <div class ="login_signup">already have an account?<a href="#" id="login">login</a></div>
+            </form>
+            </div>
+            </div>     
+    </section>
+
+    <footer>
+        <div id="footer" class="footer0">
+        <h1>RKV BOOK STORE</h1>
+        </div>
+        <div class="footer1 ">
+        Connect with us at<div class="social-media">
+        <a href="#">
+        
+        <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#">
+        <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        </div>
+        </div>
+        <div class="footer2">
+        <div class="product">
+        <div class="heading">Books</div>
+        <div class="div">Book guide</div>
+        <div class="div">Advertise</div>
+        <div class="div">Pricing</div>
+        <div class="div">Audio books</div>
+        
+        </div>
+        <div class="services">
+        <div class="heading">Services</div>
+        <div class="div">Easy Returns</div>
+        <div class="div">Cash on delivery</div>
+        <div class="div">Free book guide by authors</div>
+        <div class="div">Others</div>
+        </div>
+        <div class="Company">
+        <div class="heading">Store</div>
+        <div class="div">Complaint</div>
+        <div class="div">Careers</div>
+        <div class="div">Avail no cost EMI</div>
+        <div class="div">Support</div>
+        </div>
+        <div class="Get Help">
+        <div class="heading">Get Help</div>
+        <div class="div">Help Center</div>
+        <div class="div">Privacy Policy</div>
+        <div class="div">Terms and conditions</div>
+        <div class="div">Login</div>
+        </div>
+        </div>
+        <br>
+        <div class="contact-info">
+            <centre><h4>for enquiry</h4></centre>
+            <div class="address">
+                <p><i class="fas fa-map-marker"></i> 12, actro street, salaman nagar, karaikudi</p>
+            </div>
+            <div class="email">
+                <p><i class="far fa-envelope"></i> rkv1234@gmail.com</p>
+            </div>
+            <div class="phone">
+                <p><i class="fas fa-phone"></i> +919876543210</p>
+            </div>
+        </div><br>
+
+        </footer>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        
+        <script src="script.js">
+        
+        </script>
+
+
+
+
+
+</body>
+</html>
+
